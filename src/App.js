@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Search from "./components/Search";
-import SignIn from "./components/SignIn";
+import NavBar from "./Components/NavBar/NavBar";
+import Search from "./Components/Search/Search";
+import SignIn from "./Components/SignIn/SignIn";
 
 function App() {
   return (
