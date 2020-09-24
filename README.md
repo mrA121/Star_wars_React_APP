@@ -3,6 +3,7 @@ StarWars login and search application is built in react.
 Users can login using Name as user name and Birth Year as password of Starwars character which can be fetched from below URL.
 
 https://swapi.dev
+
 Api End Point - GET people/
 
 #### Username and password for testing
@@ -20,13 +21,23 @@ Api End Point - GET people/
 Users can make 15 searches in a minute only user Luke Skywalker can make more than 15 searches in a minute.
 
 
-# Installation Guide 
+# Installation Guide Local
 Clone the folder into a repository
 
 ```bash
 $ cd star_wars_react_app
 $ npm install
-$ npm start
+$ npm start 
 ```
+
+# Deploying to Server
+```bash
+$ cd star_wars_react_app
+$ npm install
+$ npm run build
+$ npm install -g serve
+$ serve -s build -l 4000
+```
+
 
 
